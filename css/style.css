@@ -55,8 +55,12 @@ svg {
   SVG Styles
 --------------------------- */
 
-.badge * {
+/* .badge * {
     transform-origin: 180px 180px;
+} */
+.badge * { 
+  transform-origin: center; 
+  transform-box : fill-box;
 }
 
 .outer,
@@ -75,4 +79,8 @@ svg {
 
 .star {
   animation: turn 1.1s .2s ease-out backwards;
+}
+
+.star circle   {
+  animation: pulse .7s 1.5s;
 }
