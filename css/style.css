@@ -33,6 +33,10 @@ svg {
   SVG Styles
 --------------------------- */
 
+.badge * {
+    transform-origin: 180px 180px;
+}
+
 .outer,
 .inner,
 .inline {
