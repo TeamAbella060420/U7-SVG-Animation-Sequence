@@ -36,5 +36,5 @@ svg {
 .outer,
 .inner,
 .inline {
-  
+  animation: grow;
 }
