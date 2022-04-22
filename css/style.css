@@ -36,5 +36,13 @@ svg {
 .outer,
 .inner,
 .inline {
-  animation: grow;
+  animation: grow 1s ease-out backwards;
+}
+
+.inner {
+  animation-delay: .1s;
+}
+
+.inline {
+  animation-delay: .15s;
 }
