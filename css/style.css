@@ -40,7 +40,7 @@ svg {
     transform: rotate(355deg) scale(0.9);
   }
   100% {
-
+    transform: rotate(360deg) scale(1);
   }
 }
 
