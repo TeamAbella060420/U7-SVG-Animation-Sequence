@@ -28,9 +28,10 @@ svg {
   }
 }
 
-@keyframe turn {
+@keyframes turn {
   0% {
-
+    transform: rotate(0) scale(0);
+    opacity: 0;
   }
   60% {
 
@@ -39,7 +40,7 @@ svg {
 
   }
   100% {
-    
+
   }
 }
 
