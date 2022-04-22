@@ -96,3 +96,7 @@ svg {
 .star circle:nth-of-type(4) {
   animation-delay: 1.8s;
 }
+
+.star circle:nth-of-type(5) {
+  animation-delay: 1.9s;
+}
